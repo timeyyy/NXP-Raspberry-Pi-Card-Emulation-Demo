@@ -1,0 +1,24 @@
+Program for posting status updates on Facebook.
+
+This program can be used to post status updates on Facebook.
+The user credentials and the privacy settings need to be defined in
+a file called settings.properties.
+This file must exist in the same folder as the jar file itself.
+
+The settings file must contain informations in the following style:
+#===============================================================================
+# Define the email address of the Facebook account to be used.
+User=user@example.com
+
+# Define the password of the Facebook account.
+Pass=VerySecret
+
+# Define the Privacy setting of the Status Update to be used.
+# Possible values: Public, Friends, Only Me
+Privacy=Only Me
+#===============================================================================
+
+The message that shall be posted on Facebook needs to be passed as an argument
+to the application.
+A valid application call looks as follows:
+java -jar "The message to be posted on Facebook" 

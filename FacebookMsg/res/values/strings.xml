@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Settings</string>
+    <string name="write">Write</string>
+    <string name="create">Create</string>
+    <string name="placeholder">Type your message</string>
+    <string name="delete">Delete</string>
+    <string name="modify">Modify</string>
+    <string name="about">About</string>
+    <string name="empty_store">Empty message storage</string>
+    <string name="nxpLogo">nxp_logo</string>
+
+    <string name="header_read">Read</string>
+    <string name="description_read">Read the content of the emulated Tag</string>
+    <string name="header_write">Write</string>
+    <string name="description_write">Create, write, modify and store NDEF messages.</string>
+    <string name="first_text_read">Ready to read the content of the emulated tag.</string>
+    <string name="second_text_read">Reading will begin as soon as you tag the antenna of the NFC extension board with your device</string>
+    <string name="first_text_write">Ready to write the chosen message to the emulated tag.</string>
+    <string name="second_text_write">Writing will begin as soon as you tag the antenna of the NFC extension board with your device</string>
+
+    <string name="msg_no_text_format">"The NDEF message is not in Text format"</string>
+    <string name="msg_no_wellknown_type">"The NDEF message is not of a Well-Known Type"</string>
+
+    <string name="app_name">FacebookMsg</string>
+    <string name="msg_modify">"Modify message"</string>
+    <string name="msg_create">"Create message"</string>
+    <string name="msg_store">"Message store"</string>
+    <string name="msg_read">"Ready to read"</string>
+    <string name="msg_write">"Ready to write"</string>
+    <string name="app_about">"About FacebookMsg"</string>
+
+</resources>
